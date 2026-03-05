@@ -38,7 +38,7 @@ int main() {
     printf("%-12s %7s\n", "Month", "Sales"); 
 
     for (i = 0; i < 12; i++) {
-        // -12s for the name, 10.2f for the money
+        // -12s for the month, 10.2f for the sales value
         printf("%-12s %10.2f\n", months[i], monthlySales[i]);
     }
 
